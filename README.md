@@ -1,27 +1,43 @@
-# Webpack Express Example App
+# Natural Language Processing (NLP) Web App
 
-The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
+This project is a web-based application that uses Natural Language Processing (NLP) to analyze the sentiment of text found at a provided URL. 
 
-If you want to follow along with the course, you will start from the master and switch to the appropriate numbered branches of this repo as needed. The branches are:
-- [0-initial-setup](https://github.com/udacity/fend-webpack-content/tree/0-initial-setup)
-- [1-install-webpack](https://github.com/udacity/fend-webpack-content/tree/1-install-webpack)
-- [2-add-webpack-entry](https://github.com/udacity/fend-webpack-content/tree/2-add-webpack-entry)
-- [3-webpack-output-and-loaders](https://github.com/udacity/fend-webpack-content/tree/3-webpack-output-and-loaders)
-- [4-webpack-plugins](https://github.com/udacity/fend-webpack-content/tree/4-webpack-plugins)
-- [5-webpack-mode](https://github.com/udacity/fend-webpack-content/tree/5-webpack-mode)
-- [6-webpack-for-convenience](https://github.com/udacity/fend-webpack-content/tree/6-webpack-for-convenience)
+## Table of Contents
 
-Each one is a step along the path to creating a fully functional webpack setup. In each branch, there will be a documentation file that lists out the steps taken in that branch (each step should also match to a git commit if you look at the history) which you can use as a checklist when setting up your own projects. 
+- [Getting Started](#getting-started)
+- [Running Tests](#running-tests)
+- [Author](#author)
 
-## Get Up and Running
+## Getting Started
 
-Fork this repo, then clone your forked repo down to your computer:
+To get a local copy up and running, follow these steps:
 
-```
-git clone -- git@github.com:[your-user-name]/webpack-express.git --
-```
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/[jamesre0]/NLP_Project_Udacity.git
+    ```
+2. Navigate to the project folder:
+    ```sh
+    cd NLP_Project_Udacity
+    ```
+3. Install NPM packages:
+    ```sh
+    npm install
+    ```
+4. Build the project:
+    ```sh
+    npm run build-prod or build-dev
+    ```
+5. Start the server:
+    ```sh
+    npm start
+    ```
+6. Open your web browser and navigate to `http://localhost:8081`.
 
-`cd` into your new folder and run:
-- ```npm install```
-- ```npm start``` to start the app
-- this app runs on localhost:8080, but you can of course edit that in index.js
+## Running Tests
+
+Run `npm test` in the project directory to run the Jest tests.
+
+## Author
+
+James Eustaquio
